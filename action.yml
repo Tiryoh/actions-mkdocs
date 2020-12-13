@@ -1,0 +1,26 @@
+name: 'MkDocs Action'
+description: 'GitHub Action to build HTML files of MkDocs project'
+author: 'Tiryoh'
+branding:
+  icon: 'book-open'
+  color: 'blue'
+inputs:
+  mkdocs_version:
+    description: 'pip version of MkDocs'
+    required: false
+    default: 'latest'
+  requirements:
+    description: 'path to requirements.txt'
+    required: false
+    default: 'requirements.txt'
+  configfile:
+    description: 'path to mkdocs.yml'
+    required: false
+    default: 'mkdocs.yml'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.mkdocs_version }}
+    - ${{ inputs.requirements }}
+    - ${{ inputs.configfile }}
