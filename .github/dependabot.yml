@@ -1,14 +1,26 @@
 version: 2
 updates:
-- package-ecosystem: docker
+- package-ecosystem: "docker"
   directory: "/"
   schedule:
-    interval: daily
-    time: "20:00"
+    interval: "weekly"
   open-pull-requests-limit: 10
-- package-ecosystem: pip
+  reviewers:
+  - "Tiryoh"
+  assignees:
+  - "Tiryoh"
+  labels:
+  - "Type: Dependencies"
+  - "Lang: Dockerfile"
+- package-ecosystem: "pip"
   directory: "/"
   schedule:
-    interval: daily
-    time: "20:00"
+    interval: "weekly"
   open-pull-requests-limit: 10
+  reviewers:
+  - "Tiryoh"
+  assignees:
+  - "Tiryoh"
+  labels:
+  - "Type: Dependencies"
+  - "Lang: Python"
