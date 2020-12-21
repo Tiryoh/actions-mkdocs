@@ -6,17 +6,22 @@ function print_info() {
 }
 
 if [ -n "${INPUT_REQUIREMENTS}" ] && [ -f "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}" ]; then
-    pip install -r "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}"
+    for package in $(cat "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}"); do
+        poetry add "${package}";
+    done
 else
     REQUIREMENTS="${GITHUB_WORKSPACE}/requirements.txt"
     if [ -f "${INPUT_REQUIREMENTS}" ]; then
         pip install -r "${INPUT_REQUIREMENTS}"
+        for package in $(cat "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}"); do
+            poetry add "${package}";
+        done
     fi
 fi
 
 if [ -n "${INPUT_MKDOCS_VERSION}" ]; then
     if [ ! "${INPUT_MKDOCS_VERSION}" == "latest" ]; then
-        pip install mkdocs=="${INPUT_MKDOCS_VERSION}"
+        poetry add mkdocs==${INPUT_MKDOCS_VERSION}
     fi
 fi
 
