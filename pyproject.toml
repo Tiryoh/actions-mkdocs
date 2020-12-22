@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "docker-mkdocs-builder"
-version = "0.1.0"
+name = "mkdocs-actions"
+version = "0.2.0"
 description = ""
 authors = ["Daisuke Sato <tiryoh@gmail.com>"]
 license = "MIT"
