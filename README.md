@@ -52,3 +52,10 @@ jobs:
 ```
 
 ## Related projects
+
+* [Tiryoh/docker-mkdocs-builder](https://github.com/Tiryoh/docker-mkdocs-builder)
+    * Dockerfile that just builds the MkDocs document
+* [squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+    * A Material Design theme for MkDocs, this project includes build & deploy Dockerfile
+* [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+    * GitHub Actions for GitHub Pages rocket Deploy static files and publish your site easily. Static-Site-Generators-friendly.
