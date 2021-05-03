@@ -304,17 +304,20 @@ mkdocs = ">=1.0.4"
 
 [[package]]
 name = "mkdocs-redirects"
-version = "1.0.1"
+version = "1.0.3"
 description = "A MkDocs plugin for dynamic page redirects to prevent broken links."
 category = "main"
 optional = false
 python-versions = ">=2.7"
 
 [package.dependencies]
-mkdocs = ">=1.0.4"
+mkdocs = ">=1.0.4,<2"
+six = ">=1.15.0,<2"
 
 [package.extras]
-release = ["twine (==1.13.0)"]
+dev = ["pytest (<5)", "twine (>=1.13.0,<2)"]
+release = ["twine (>=1.13.0,<2)"]
+test = ["pytest (<5)"]
 
 [[package]]
 name = "mkdocs-rtd-dropdown"
@@ -660,7 +663,7 @@ mkdocs-minify-plugin = [
     {file = "mkdocs_minify_plugin-0.3.0-py2-none-any.whl", hash = "sha256:9bac96276b1681debb3eb2cf5bae972586b4c1138e8d78ea63a984ea6276563d"},
 ]
 mkdocs-redirects = [
-    {file = "mkdocs-redirects-1.0.1.tar.gz", hash = "sha256:0a21301bee7f743d622226a6869f4718f3bfb26887985e23aafac7f7f6b050aa"},
+    {file = "mkdocs-redirects-1.0.3.tar.gz", hash = "sha256:db413e1d1ef5e88d8427c0a259d72ae85e74a2b51f6cd7605c2a8db358fe340f"},
 ]
 mkdocs-rtd-dropdown = [
     {file = "mkdocs-rtd-dropdown-1.0.2.tar.gz", hash = "sha256:183f2f2cd7b9305addb031a1d526e933102d319de48ee3fcafb960b3ed7ee491"},
