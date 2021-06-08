@@ -2,6 +2,11 @@
 ## [Unreleased]
 
 
+<a name="v0.4.0"></a>
+## [v0.4.0] - 2021-06-08
+### Chore
+- **deps:** Bump mkdocs-material from 6.2.8 to 7.1.6 ([#25](https://github.com/Tiryoh/actions-mkdocs/issues/25))
+
 <a name="v0.3.0"></a>
 ## [v0.3.0] - 2021-06-01
 ### Chore
@@ -41,6 +46,7 @@
 - Use Poetry for package management
 - Add initial GitHub Actions settings
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.4.0...HEAD
+[v0.4.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.3...v0.4.0
 [v0.3.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.2.0...v0.3.0
 [v0.2.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.1.0...v0.2.0
