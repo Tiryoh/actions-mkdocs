@@ -1,0 +1,41 @@
+name: Check release condition
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+  release-candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: Dump version
+        if: startsWith(github.event.pull_request.title, 'release')
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        id: release
+        run: |
+          echo $PR_TITLE | grep -e "release v[0-9\-\.]*" || exit 1
+          VERSION=$(echo $PR_TITLE | sed -E 's/.* (v[0-9\-\.]*)/\1/g')
+          echo $VERSION
+          echo ::set-output name=version::$VERSION
+      - name: Dump poetry version
+        id: poetry
+        run: |
+          VERSION=$(grep version pyproject.toml | sed -E 's/.* "([0-9\-\.]*)"/v\1/g')
+          echo $VERSION
+          echo ::set-output name=version::$VERSION
+      - name: Check version
+        run: |
+          if [[ "${{ steps.release.outputs.version }}" == "${{ steps.poetry.outputs.version }}" ]]; then
+            echo "VERSION MATCH"
+          else
+            echo "VERSION MISMATCH"
+            exit 1
+          fi
+      - name: Check CHANGELOG
+        run: |
+          
+          if [[ $(grep "${{ steps.release.outputs.version }}" CHANGELOG.md) == "" ]]; then
+            echo "VERSION MISMATCH"
+            exit 1
+          fi
