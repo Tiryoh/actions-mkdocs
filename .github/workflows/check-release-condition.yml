@@ -5,11 +5,11 @@ on:
 jobs:
   release-candidate:
     runs-on: ubuntu-latest
+    if: startsWith(github.event.pull_request.title, 'release')
     steps:
       - name: checkout
         uses: actions/checkout@v2
       - name: Dump version
-        if: startsWith(github.event.pull_request.title, 'release')
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         id: release
