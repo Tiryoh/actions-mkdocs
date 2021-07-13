@@ -214,11 +214,11 @@ python-versions = "*"
 
 [[package]]
 name = "mkdocs-htmlproofer-plugin"
-version = "0.3.0"
+version = "0.4.0"
 description = "A MkDocs plugin that validates URL in rendered HTML files"
 category = "main"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.dependencies]
 beautifulsoup4 = "*"
@@ -491,7 +491,7 @@ testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2.3)", "pytest-flake
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "37398b767cda6b89d196e13784557540b23a3ca92599cd37fae4ad1cf190ae4d"
+content-hash = "33bbb40fecf32a031c5a87bfa18395ef07b3a1b36968c65f417fa1f7cd5078c9"
 
 [metadata.files]
 babel = [
@@ -619,8 +619,8 @@ mkdocs-gitbook = [
     {file = "mkdocs_gitbook-0.0.1-py2.py3-none-any.whl", hash = "sha256:e929c3caf655076eaa030128cfd104687b9ec14644d54f4a175d43e13ac60ef8"},
 ]
 mkdocs-htmlproofer-plugin = [
-    {file = "mkdocs-htmlproofer-plugin-0.3.0.tar.gz", hash = "sha256:6c45c3101701ef3a48a5deef28596717d102042e7da405fd504798d95412821f"},
-    {file = "mkdocs_htmlproofer_plugin-0.3.0-py3-none-any.whl", hash = "sha256:45b4f7d2b7d0ba2f79b228beff16a50508e8539d3f9e4d39f278ff78ebd11da6"},
+    {file = "mkdocs-htmlproofer-plugin-0.4.0.tar.gz", hash = "sha256:fbf14394d996246451172d3b7db10eb290e693d5d23046707ea65a1fb923162f"},
+    {file = "mkdocs_htmlproofer_plugin-0.4.0-py3-none-any.whl", hash = "sha256:926c1948c3fa516f777d7137c126de6462eba272405096ddae8acf33939019bb"},
 ]
 mkdocs-ivory = [
     {file = "mkdocs-ivory-0.4.6.tar.gz", hash = "sha256:c2251e1dd9a0d6b6ffb947d53a4c44132a55e8130e3ef8d22a18b4670d026941"},
