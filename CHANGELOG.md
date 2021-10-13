@@ -2,6 +2,22 @@
 ## [Unreleased]
 
 
+<a name="v0.8.0"></a>
+## [v0.8.0] - 2021-10-14
+### Bug Fixes
+- Fix error on project with requirements.txt ([#60](https://github.com/Tiryoh/actions-mkdocs/issues/60))
+
+### CI
+- Add actions run test ([#59](https://github.com/Tiryoh/actions-mkdocs/issues/59))
+
+### Chore
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#51](https://github.com/Tiryoh/actions-mkdocs/issues/51))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 0.4.0 to 0.7.0 ([#53](https://github.com/Tiryoh/actions-mkdocs/issues/53))
+- **deps:** Bump mkdocs-minify-plugin from 0.4.0 to 0.4.1 ([#55](https://github.com/Tiryoh/actions-mkdocs/issues/55))
+- **deps:** Bump mkdocs-material from 7.2.1 to 7.3.3 ([#57](https://github.com/Tiryoh/actions-mkdocs/issues/57))
+- **deps:** Bump mkdocs-material from 7.1.11 to 7.2.1 ([#41](https://github.com/Tiryoh/actions-mkdocs/issues/41))
+
+
 <a name="v0.7.0"></a>
 ## [v0.7.0] - 2021-08-01
 ### Chore
@@ -74,7 +90,8 @@
 - Use Poetry for package management
 - Add initial GitHub Actions settings
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.8.0...HEAD
+[v0.8.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.7.0...v0.8.0
 [v0.7.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.6.0...v0.7.0
 [v0.6.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.5.0...v0.6.0
 [v0.5.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.4.0...v0.5.0
