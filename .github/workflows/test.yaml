@@ -1,0 +1,23 @@
+name: Test
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  build1:
+    name: Build with no options
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout mkdocs
+        uses: actions/checkout@v2
+        with:
+          repository: squidfunk/mkdocs-material
+
+      - name: Checkout action
+        uses: actions/checkout@v2
+        with:
+          path: .github/actions/mkdocs-builder
+
+      - name: Run action without options
+        uses: ./.github/actions/mkdocs-builder
