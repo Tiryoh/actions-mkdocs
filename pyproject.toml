@@ -17,7 +17,7 @@ mkdocs-ivory = "0.4.6"
 # plugins
 mkdocs-minify-plugin = "^0.4"
 mkdocs-redirects = "^1.0"
-mkdocs-git-revision-date-localized-plugin = "^0.9"
+mkdocs-git-revision-date-localized-plugin = "^0.10"
 mkdocs-htmlproofer-plugin = "^0.7.0"
 mkdocs_latest_release_plugin = "^0.1.2"
 
