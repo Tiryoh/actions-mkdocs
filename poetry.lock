@@ -132,7 +132,7 @@ i18n = ["Babel (>=0.8)"]
 
 [[package]]
 name = "jsmin"
-version = "2.2.2"
+version = "3.0.0"
 description = "JavaScript minifier."
 category = "main"
 optional = false
@@ -276,15 +276,15 @@ mkdocs-material = ">=5.0.0"
 
 [[package]]
 name = "mkdocs-minify-plugin"
-version = "0.4.0"
+version = "0.4.1"
 description = "An MkDocs plugin to minify HTML and/or JS files prior to being written to disk"
 category = "main"
 optional = false
-python-versions = ">=2.7"
+python-versions = ">=3.0"
 
 [package.dependencies]
 htmlmin = ">=0.1.4"
-jsmin = ">=2.2.2"
+jsmin = ">=3.0.0"
 mkdocs = ">=1.0.4"
 
 [[package]]
@@ -544,7 +544,7 @@ jinja2 = [
     {file = "Jinja2-2.11.2.tar.gz", hash = "sha256:89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0"},
 ]
 jsmin = [
-    {file = "jsmin-2.2.2.tar.gz", hash = "sha256:b6df99b2cd1c75d9d342e4335b535789b8da9107ec748212706ef7bbe5c2553b"},
+    {file = "jsmin-3.0.0.tar.gz", hash = "sha256:88fc1bd6033a47c5911dbcada7d279c7a8b7ad0841909590f6a742c20c4d2e08"},
 ]
 markdown = [
     {file = "Markdown-3.3.3-py3-none-any.whl", hash = "sha256:c109c15b7dc20a9ac454c9e6025927d44460b85bd039da028d85e2b6d0bcc328"},
@@ -641,8 +641,8 @@ mkdocs-material-extensions = [
     {file = "mkdocs_material_extensions-1.0.1-py3-none-any.whl", hash = "sha256:d90c807a88348aa6d1805657ec5c0b2d8d609c110e62b9dce4daf7fa981fa338"},
 ]
 mkdocs-minify-plugin = [
-    {file = "mkdocs-minify-plugin-0.4.0.tar.gz", hash = "sha256:b975ab8e72b9aeadaa8ba2e2901be401475b280a1d8f1789653d66734ea7d8cc"},
-    {file = "mkdocs_minify_plugin-0.4.0-py2-none-any.whl", hash = "sha256:8893aef8410458a2c1d6454342fc6d1db30439d60f7850c144803932262fd89c"},
+    {file = "mkdocs-minify-plugin-0.4.1.tar.gz", hash = "sha256:dd12c178853485281aac3ccdd7c85733462550961fa6cf6d2ce0fdad103c9c9e"},
+    {file = "mkdocs_minify_plugin-0.4.1-py2-none-any.whl", hash = "sha256:8799170c9b3bcc169be60104b80f3a43f9eb585d4d50701e2cbf342d35a46487"},
 ]
 mkdocs-redirects = [
     {file = "mkdocs-redirects-1.0.3.tar.gz", hash = "sha256:db413e1d1ef5e88d8427c0a259d72ae85e74a2b51f6cd7605c2a8db358fe340f"},
