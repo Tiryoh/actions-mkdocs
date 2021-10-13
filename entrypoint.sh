@@ -5,18 +5,17 @@ function print_info() {
     echo -e "\e[36mINFO: ${1}\e[m"
 }
 
+if [ ! -f ${GITHUB_WORKSPACE}/poetry.lock ]; then
+    cp /docs/poetry.lock ${GITHUB_WORKSPACE}/poetry.lock
+fi
+
+if [ ! -f ${GITHUB_WORKSPACE}/pyproject.toml ]; then
+    cp /docs/pyproject.toml ${GITHUB_WORKSPACE}/pyproject.toml
+fi
+
 if [ -n "${INPUT_REQUIREMENTS}" ] && [ -f "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}" ]; then
-    for package in $(cat "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}"); do
-        poetry add "${package}";
-    done
-else
-    REQUIREMENTS="${GITHUB_WORKSPACE}/requirements.txt"
-    if [ -f "${INPUT_REQUIREMENTS}" ]; then
-        pip install -r "${INPUT_REQUIREMENTS}"
-        for package in $(cat "${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}"); do
-            poetry add "${package}";
-        done
-    fi
+    grep ^[^#] ${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS} | xargs poetry add || \
+      pip install -r ${GITHUB_WORKSPACE}/${INPUT_REQUIREMENTS}
 fi
 
 if [ -n "${INPUT_MKDOCS_VERSION}" ]; then
