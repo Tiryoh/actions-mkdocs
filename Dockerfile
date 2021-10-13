@@ -1,4 +1,4 @@
-FROM tiryoh/mkdocs-builder:debian
+FROM tiryoh/mkdocs-builder:alpine
 
 # Copy only requirements to cache them in docker layer
 COPY poetry.lock pyproject.toml /docs/
