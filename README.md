@@ -1,5 +1,7 @@
 # actions-mkdocs
 
+[![Test](https://github.com/Tiryoh/actions-mkdocs/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/Tiryoh/actions-mkdocs/actions/workflows/test.yaml?query=branch%3Amain)
+
 GitHub Actions for MkDocs
 
 ## Inputs
