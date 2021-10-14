@@ -3,9 +3,15 @@ name: Test
 on:
   pull_request:
     types: [opened, synchronize]
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
   push:
     branches:
       - main
+    paths-ignore:
+      - 'docs/**'
+      - '**.md'
 
 jobs:
   build1:
