@@ -14,7 +14,7 @@ jobs:
           PR_TITLE: ${{ github.event.pull_request.title }}
         id: release
         run: |
-          echo $PR_TITLE | grep -e "release:? v[0-9\-\.]*" || exit 1
+          echo $PR_TITLE | grep -E "release:? v[0-9\-\.]*" || exit 1
           VERSION=$(echo $PR_TITLE | sed -E 's/.* (v[0-9\-\.]*)/\1/g')
           echo $VERSION
           echo ::set-output name=version::$VERSION
