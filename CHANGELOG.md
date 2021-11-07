@@ -2,6 +2,17 @@
 ## [Unreleased]
 
 
+<a name="v0.9.0"></a>
+## [v0.9.0] - 2021-11-08
+### CI
+- Run CI on push ([#62](https://github.com/Tiryoh/actions-mkdocs/issues/62))
+
+### Chore
+- **deps:** Bump mkdocs-minify-plugin from 0.4.1 to 0.5.0 ([#64](https://github.com/Tiryoh/actions-mkdocs/issues/64))
+- **deps:** Bump pyyaml from 5.3.1 to 5.4 ([#66](https://github.com/Tiryoh/actions-mkdocs/issues/66))
+- **deps:** Bump mkdocs from 1.2.2 to 1.2.3 ([#65](https://github.com/Tiryoh/actions-mkdocs/issues/65))
+
+
 <a name="v0.8.0"></a>
 ## [v0.8.0] - 2021-10-14
 ### Bug Fixes
@@ -90,7 +101,8 @@
 - Use Poetry for package management
 - Add initial GitHub Actions settings
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.8.0...HEAD
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.9.0...HEAD
+[v0.9.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.8.0...v0.9.0
 [v0.8.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.7.0...v0.8.0
 [v0.7.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.6.0...v0.7.0
 [v0.6.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.5.0...v0.6.0
