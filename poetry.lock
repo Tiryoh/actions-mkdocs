@@ -215,7 +215,7 @@ i18n = ["babel (>=2.9.0)"]
 
 [[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
-version = "0.10.0"
+version = "0.10.1"
 description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
 category = "main"
 optional = false
@@ -691,8 +691,8 @@ mkdocs = [
     {file = "mkdocs-1.2.3.tar.gz", hash = "sha256:89f5a094764381cda656af4298727c9f53dc3e602983087e1fe96ea1df24f4c1"},
 ]
 mkdocs-git-revision-date-localized-plugin = [
-    {file = "mkdocs-git-revision-date-localized-plugin-0.10.0.tar.gz", hash = "sha256:59ea0ac5dcf99d6bafd5ba9b408d28e987305c7d60f39a5501a00472de2bae70"},
-    {file = "mkdocs_git_revision_date_localized_plugin-0.10.0-py3-none-any.whl", hash = "sha256:f7b5f87c023a51d5ec4bc4b9d26673e0638790936b9a1a052dabd2a0c4fd5836"},
+    {file = "mkdocs-git-revision-date-localized-plugin-0.10.1.tar.gz", hash = "sha256:dbfdf3ad132b0751c00b42c8cc86d6938e7ebe8fb6308038cd30a6200c83b8a3"},
+    {file = "mkdocs_git_revision_date_localized_plugin-0.10.1-py3-none-any.whl", hash = "sha256:0f138c4fa7e9ad0038cee3b4d1a4b5a2b1a7eb5a2c00cc0625082430f3a5914f"},
 ]
 mkdocs-gitbook = [
     {file = "mkdocs-gitbook-0.0.1.tar.gz", hash = "sha256:c094f9d77e47d54379a0d3816097b56511e760fedb23dcf89bc925f6ac4e75f3"},
