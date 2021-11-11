@@ -1,0 +1,10 @@
+pull_request_rules:
+  - name: Automatic merge PRs from Dependabot
+    conditions:
+      - base=main
+      - author~=^dependabot(|-preview)\[bot\]$
+      - title~=Bump [^\s]+ from ([\d]+)\..+ to \1\.
+      - check-success~=^Build
+    actions:
+      merge:
+        method: squash
