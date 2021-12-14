@@ -2,9 +2,32 @@
 ## [Unreleased]
 
 
+<a name="v0.10.0"></a>
+## [v0.10.0] - 2021-12-15
+### CI
+- Add Mergify configuration ([#73](https://github.com/Tiryoh/actions-mkdocs/issues/73))
+
+### Chore
+- **deps:** Bump lxml from 4.6.3 to 4.6.5 ([#83](https://github.com/Tiryoh/actions-mkdocs/issues/83))
+- **deps:** Bump mkdocs-material from 7.3.6 to 8.1.1 ([#81](https://github.com/Tiryoh/actions-mkdocs/issues/81))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#79](https://github.com/Tiryoh/actions-mkdocs/issues/79))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#77](https://github.com/Tiryoh/actions-mkdocs/issues/77))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#76](https://github.com/Tiryoh/actions-mkdocs/issues/76))
+- **deps:** Bump mkdocs-material from 7.3.3 to 7.3.6 ([#75](https://github.com/Tiryoh/actions-mkdocs/issues/75))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#74](https://github.com/Tiryoh/actions-mkdocs/issues/74))
+- **deps:** Bump jinja2 from 2.11.2 to 2.11.3 ([#72](https://github.com/Tiryoh/actions-mkdocs/issues/72))
+- **deps:** Bump babel from 2.9.0 to 2.9.1 ([#69](https://github.com/Tiryoh/actions-mkdocs/issues/69))
+- **deps:** Bump urllib3 from 1.26.2 to 1.26.5 ([#70](https://github.com/Tiryoh/actions-mkdocs/issues/70))
+- **deps:** Bump pygments from 2.7.3 to 2.7.4 ([#71](https://github.com/Tiryoh/actions-mkdocs/issues/71))
+
+### Docs
+- Update third party lib notices ([#82](https://github.com/Tiryoh/actions-mkdocs/issues/82))
+
+
 <a name="v0.9.0"></a>
 ## [v0.9.0] - 2021-11-08
 ### CI
+- Fix typo ([#67](https://github.com/Tiryoh/actions-mkdocs/issues/67))
 - Run CI on push ([#62](https://github.com/Tiryoh/actions-mkdocs/issues/62))
 
 ### Chore
@@ -42,6 +65,7 @@
 ## [v0.6.0] - 2021-06-15
 ### CI
 - Fix CI trigger condition ([#32](https://github.com/Tiryoh/actions-mkdocs/pull/32))
+
 ### Chore
 - **deps:** Bump mkdocs from 1.1.2 to 1.2.1 ([#33](https://github.com/Tiryoh/actions-mkdocs/issues/33))
 - **deps:** Bump mkdocs-material from 7.1.7 to 7.1.8 ([#34](https://github.com/Tiryoh/actions-mkdocs/issues/34))
@@ -87,21 +111,22 @@
 - Update base image to reduce build time
 
 <a name="v0.1.0"></a>
-## v0.1.0 - 2020-12-21
-### Chore
-- Add git-chglog settings
-- Create repository
-
+## v0.1.0 - 2020-12-22
 ### CI
 - Update Dependabot configs
 - Create Dependabot config file ([#1](https://github.com/Tiryoh/actions-mkdocs/issues/1))
 - Add git tag versioning settings
 
+### Chore
+- Add git-chglog settings
+- Create repository
+
 ### Features
 - Use Poetry for package management
 - Add initial GitHub Actions settings
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.9.0...HEAD
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.10.0...HEAD
+[v0.10.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.9.0...v0.10.0
 [v0.9.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.8.0...v0.9.0
 [v0.8.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.7.0...v0.8.0
 [v0.7.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.6.0...v0.7.0
