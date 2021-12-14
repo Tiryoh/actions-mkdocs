@@ -61,3 +61,15 @@ jobs:
     * A Material Design theme for MkDocs, this project includes build & deploy Dockerfile
 * [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
     * GitHub Actions for GitHub Pages rocket Deploy static files and publish your site easily. Static-Site-Generators-friendly.
+
+
+## License
+
+Copyright (c) 2020-2021 Daisuke Sato
+
+This repository is licensed under the MIT License, see [LICENSE](./LICENSE).
+Unless attributed otherwise, everything in this repository is licensed under the MIT license.
+
+### Acknowledgements
+
+This repository includes third-party libraries and software. See [THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).
