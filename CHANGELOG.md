@@ -63,6 +63,9 @@
 
 <a name="v0.6.0"></a>
 ## [v0.6.0] - 2021-06-15
+### CI
+- Fix CI trigger condition ([#32](https://github.com/Tiryoh/actions-mkdocs/pull/32))
+
 ### Chore
 - **deps:** Bump mkdocs from 1.1.2 to 1.2.1 ([#33](https://github.com/Tiryoh/actions-mkdocs/issues/33))
 - **deps:** Bump mkdocs-material from 7.1.7 to 7.1.8 ([#34](https://github.com/Tiryoh/actions-mkdocs/issues/34))
