@@ -2,6 +2,14 @@
 ## [Unreleased]
 
 
+<a name="v0.12.0"></a>
+## [v0.12.0] - 2022-01-31
+### Chore
+- **deps:** Bump mkdocs-material from 8.1.7 to 8.1.8 ([#92](https://github.com/Tiryoh/actions-mkdocs/issues/92))
+- **deps:** Bump mkdocs-material from 8.1.5 to 8.1.7 ([#91](https://github.com/Tiryoh/actions-mkdocs/issues/91))
+- **deps:** Bump mkdocs-material from 8.1.4 to 8.1.5 ([#90](https://github.com/Tiryoh/actions-mkdocs/issues/90))
+
+
 <a name="v0.11.0"></a>
 ## [v0.11.0] - 2022-01-09
 ### Chore
@@ -134,7 +142,8 @@
 - Use Poetry for package management
 - Add initial GitHub Actions settings
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.11.0...HEAD
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.12.0...HEAD
+[v0.12.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.11.0...v0.12.0
 [v0.11.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.10.0...v0.11.0
 [v0.10.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.9.0...v0.10.0
 [v0.9.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.8.0...v0.9.0
