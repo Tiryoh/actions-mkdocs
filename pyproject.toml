@@ -10,7 +10,7 @@ python = "^3.6"
 # main
 mkdocs = "^1.2"
 # themes
-mkdocs-material = "8.2.5"
+mkdocs-material = "8.2.7"
 mkdocs-rtd-dropdown = "1.0.2"
 mkdocs-gitbook = "0.0.1"
 mkdocs-ivory = "0.4.6"
