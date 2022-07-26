@@ -1,0 +1,54 @@
+
+# This action is adapted from https://github.com/at-wat/neonavigation/blob/master/.github/workflows/release-candidate.yml
+
+name: Create release from issue
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  release-candidate:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'Release ')
+    steps:
+      - name: Install git-chglog
+        run: |
+          sudo mkdir -p /usr/local/src
+          sudo chmod 777 /usr/local/src
+          cd /usr/local/src
+          wget https://github.com/git-chglog/git-chglog/releases/download/v0.15.0/git-chglog_0.15.0_linux_amd64.tar.gz
+          tar zxvf git-chglog*.tar.gz
+          sudo ln /usr/local/src/git-chglog /bin/git-chglog
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+      - name: Create release branch
+        id: create-release
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote set-url origin https://github.com/${{ github.repository }}.git
+          export VERSION=$(echo ${{ github.event.issue.title }} | sed -E 's/Release v?([0-9\.]*)/\1/g')
+          export BRANCH=release/v$VERSION
+          bash .github/scripts/update_changelog.sh $VERSION
+          git checkout -b $BRANCH
+          sed -i -E 's/version = "[0-9\.]*"/version = "'$VERSION'"/g' pyproject.toml
+          git add CHANGELOG.md pyproject.toml
+          git commit -m "release: v$VERSION"
+          echo ::set-output name=release-version::$VERSION
+          echo ::set-output name=created-branch::$BRANCH
+      - name: Sync created branch
+        run: |
+          git remote set-url origin https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin ${{ steps.create-release.outputs.created-branch }} > /dev/null 2>&1
+      - name: Open pull-request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ steps.create-release.outputs.created-branch }}
+          destination_branch: main
+          pr_title: "release: v${{ steps.create-release.outputs.release-version}}"
+          pr_body: close \#${{ github.event.issue.number }}
+          pr_assignee: ${{ github.actor }}
+          pr_label: "Type: Maintenance"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
