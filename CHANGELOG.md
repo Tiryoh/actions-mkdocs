@@ -2,6 +2,30 @@
 ## [Unreleased]
 
 
+<a name="v0.16.0"></a>
+## [v0.16.0] - 2022-07-26
+### CI
+- Add release automation action ([#117](https://github.com/Tiryoh/actions-mkdocs/issues/117))
+
+### Chore
+- Update dependabot.yml ([#115](https://github.com/Tiryoh/actions-mkdocs/issues/115))
+- **deps:** Bump actions/checkout from 2 to 3 ([#116](https://github.com/Tiryoh/actions-mkdocs/issues/116))
+- **deps:** Bump lxml from 4.6.5 to 4.9.1 ([#114](https://github.com/Tiryoh/actions-mkdocs/issues/114))
+- **deps:** Bump mkdocs from 1.3.0 to 1.3.1 ([#113](https://github.com/Tiryoh/actions-mkdocs/issues/113))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#112](https://github.com/Tiryoh/actions-mkdocs/issues/112))
+- **deps:** Bump mkdocs-material from 8.2.9 to 8.2.11 ([#111](https://github.com/Tiryoh/actions-mkdocs/issues/111))
+- **deps:** Bump mkdocs-material from 8.2.8 to 8.2.9 ([#110](https://github.com/Tiryoh/actions-mkdocs/issues/110))
+- **deps:** Bump mkdocs-redirects from 1.0.3 to 1.0.4 ([#109](https://github.com/Tiryoh/actions-mkdocs/issues/109))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin ([#108](https://github.com/Tiryoh/actions-mkdocs/issues/108))
+- **deps:** Bump mkdocs-material from 8.2.7 to 8.2.8 ([#107](https://github.com/Tiryoh/actions-mkdocs/issues/107))
+- **deps:** Bump mkdocs from 1.2.3 to 1.3.0 ([#106](https://github.com/Tiryoh/actions-mkdocs/issues/106))
+- **deps:** Bump mkdocs-material from 8.2.5 to 8.2.7 ([#105](https://github.com/Tiryoh/actions-mkdocs/issues/105))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.16.0...HEAD
+[v0.16.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.15.0...v0.16.0
+
+
 <a name="v0.15.0"></a>
 ## [v0.15.0] - 2022-03-08
 ### Chore
@@ -165,7 +189,6 @@
 - Use Poetry for package management
 - Add initial GitHub Actions settings
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.15.0...HEAD
 [v0.15.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.14.0...v0.15.0
 [v0.14.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.13.0...v0.14.0
 [v0.13.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.12.0...v0.13.0
