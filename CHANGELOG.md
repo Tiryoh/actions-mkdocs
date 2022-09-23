@@ -2,6 +2,19 @@
 ## [Unreleased]
 
 
+<a name="v0.17.0"></a>
+## [v0.17.0] - 2022-09-19
+### Chore
+- **deps:** Bump mkdocs-redirects from 1.1.0 to 1.2.0 ([#123](https://github.com/Tiryoh/actions-mkdocs/issues/123))
+- **deps:** Bump mkdocs-redirects from 1.0.6 to 1.1.0 ([#122](https://github.com/Tiryoh/actions-mkdocs/issues/122))
+- **deps:** Bump mkdocs-redirects from 1.0.5 to 1.0.6 ([#121](https://github.com/Tiryoh/actions-mkdocs/issues/121))
+- **deps:** Bump mkdocs-redirects from 1.0.4 to 1.0.5 ([#120](https://github.com/Tiryoh/actions-mkdocs/issues/120))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.17.0...HEAD
+[v0.17.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.16.0...v0.17.0
+
+
 <a name="v0.16.0"></a>
 ## [v0.16.0] - 2022-07-26
 ### CI
@@ -22,7 +35,6 @@
 - **deps:** Bump mkdocs-material from 8.2.5 to 8.2.7 ([#105](https://github.com/Tiryoh/actions-mkdocs/issues/105))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.16.0...HEAD
 [v0.16.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.15.0...v0.16.0
 
 
