@@ -117,7 +117,6 @@ optional = false
 python-versions = ">=3.6"
 
 [package.dependencies]
-typing-extensions = {version = ">=3.6.4", markers = "python_version < \"3.8\""}
 zipp = ">=0.5"
 
 [package.extras]
@@ -153,9 +152,6 @@ description = "Python implementation of Markdown."
 category = "main"
 optional = false
 python-versions = ">=3.6"
-
-[package.dependencies]
-importlib-metadata = {version = "*", markers = "python_version < \"3.8\""}
 
 [package.extras]
 testing = ["coverage", "pyyaml"]
@@ -222,7 +218,7 @@ python-versions = "*"
 
 [[package]]
 name = "mkdocs-htmlproofer-plugin"
-version = "0.10.1"
+version = "0.10.2"
 description = "A MkDocs plugin that validates URL in rendered HTML files"
 category = "main"
 optional = false
@@ -452,14 +448,6 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
-name = "typing-extensions"
-version = "3.7.4.3"
-description = "Backported and Experimental Type Hints for Python 3.5+"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "urllib3"
 version = "1.26.5"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -497,8 +485,8 @@ testing = ["func-timeout", "jaraco.itertools", "jaraco.test (>=3.2.0)", "pytest 
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.6"
-content-hash = "db1005c29a44ecff6cbc7c05ee99ed1df2a3f620d078c45d902c3cabf7c961b3"
+python-versions = "~3.11"
+content-hash = "fa0611b4982379416c27502bb2ce4b266bbc0c5ededbcafb63cad371b6d7bb80"
 
 [metadata.files]
 babel = [
@@ -630,8 +618,8 @@ mkdocs-gitbook = [
     {file = "mkdocs_gitbook-0.0.1-py2.py3-none-any.whl", hash = "sha256:e929c3caf655076eaa030128cfd104687b9ec14644d54f4a175d43e13ac60ef8"},
 ]
 mkdocs-htmlproofer-plugin = [
-    {file = "mkdocs-htmlproofer-plugin-0.10.1.tar.gz", hash = "sha256:3827f26b290678322a70b7938655f1b8e4e3c5051878ac5b93b1d5fe126ce7c3"},
-    {file = "mkdocs_htmlproofer_plugin-0.10.1-py3-none-any.whl", hash = "sha256:86a365679368956fb3f70abf032de5d21b2a3d2c0add2d4e00b873d17fad9b2f"},
+    {file = "mkdocs-htmlproofer-plugin-0.10.2.tar.gz", hash = "sha256:11faeeaf7b75dd503d72d6ccd47778c4e68e0949737768efab24b68ef651fd19"},
+    {file = "mkdocs_htmlproofer_plugin-0.10.2-py3-none-any.whl", hash = "sha256:e8be2d4769abc85e54e403482d85ffdb5c0ea306d2b091a20fcfa2577e00708d"},
 ]
 mkdocs-ivory = [
     {file = "mkdocs-ivory-0.4.6.tar.gz", hash = "sha256:c2251e1dd9a0d6b6ffb947d53a4c44132a55e8130e3ef8d22a18b4670d026941"},
@@ -730,11 +718,6 @@ smmap = [
 soupsieve = [
     {file = "soupsieve-2.1-py3-none-any.whl", hash = "sha256:4bb21a6ee4707bf43b61230e80740e71bfe56e55d1f1f50924b087bb2975c851"},
     {file = "soupsieve-2.1.tar.gz", hash = "sha256:6dc52924dc0bc710a5d16794e6b3480b2c7c08b07729505feab2b2c16661ff6e"},
-]
-typing-extensions = [
-    {file = "typing_extensions-3.7.4.3-py2-none-any.whl", hash = "sha256:dafc7639cde7f1b6e1acc0f457842a83e722ccca8eef5270af2d74792619a89f"},
-    {file = "typing_extensions-3.7.4.3-py3-none-any.whl", hash = "sha256:7cb407020f00f7bfc3cb3e7881628838e69d8f3fcab2f64742a5e76b2f841918"},
-    {file = "typing_extensions-3.7.4.3.tar.gz", hash = "sha256:99d4073b617d30288f569d3f13d2bd7548c3a7e4c8de87db09a9d29bb3a4a60c"},
 ]
 urllib3 = [
     {file = "urllib3-1.26.5-py2.py3-none-any.whl", hash = "sha256:753a0374df26658f99d826cfe40394a686d05985786d946fbe4165b5148f5a7c"},
