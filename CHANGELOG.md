@@ -3,7 +3,7 @@
 
 
 <a name="v0.18.0"></a>
-## [v0.18.0] - 2022-11-28
+## [v0.18.0] - 2022-12-26
 ### Chore
 - **deps:** Bump mkdocs-htmlproofer-plugin from 0.10.1 to 0.10.2 ([#129](https://github.com/Tiryoh/actions-mkdocs/issues/129))
 - **deps:** Bump mkdocs-htmlproofer-plugin from 0.10.0 to 0.10.1 ([#128](https://github.com/Tiryoh/actions-mkdocs/issues/128))
