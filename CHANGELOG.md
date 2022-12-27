@@ -2,6 +2,16 @@
 ## [Unreleased]
 
 
+<a name="v0.19.0"></a>
+## [v0.19.0] - 2022-12-27
+### Bug Fixes
+- Fix safe.directory error message when use GITHUB_WORKSPACE ([#132](https://github.com/Tiryoh/actions-mkdocs/issues/132))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.19.0...HEAD
+[v0.19.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.18.0...v0.19.0
+
+
 <a name="v0.18.0"></a>
 ## [v0.18.0] - 2022-12-26
 ### Chore
@@ -11,7 +21,6 @@
 - **deps:** Bump mkdocs-htmlproofer-plugin from 0.8.0 to 0.9.0 ([#126](https://github.com/Tiryoh/actions-mkdocs/issues/126))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.18.0...HEAD
 [v0.18.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.17.0...v0.18.0
 
 
