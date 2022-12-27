@@ -31,7 +31,8 @@ else
     export CONFIG_FILE="${GITHUB_WORKSPACE}/mkdocs.yml"
 fi
 
-# workaroun, see https://github.com/actions/checkout/issues/766
+# workaround, see https://github.com/actions/checkout/issues/766
 git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
 cd ${GITHUB_WORKSPACE}
 mkdocs build --config-file ${CONFIG_FILE}
