@@ -2,13 +2,23 @@
 ## [Unreleased]
 
 
+<a name="v0.20.0"></a>
+## [v0.20.0] - 2023-02-14
+### Chore
+- Add GitHub Actions trigger ([#136](https://github.com/Tiryoh/actions-mkdocs/issues/136))
+- **deps:** Bump mkdocs-material from 8.2.11 to 8.5.10 ([#137](https://github.com/Tiryoh/actions-mkdocs/issues/137))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.20.0...HEAD
+[v0.20.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.19.0...v0.20.0
+
+
 <a name="v0.19.0"></a>
 ## [v0.19.0] - 2022-12-27
 ### Bug Fixes
 - Fix safe.directory error message when use GITHUB_WORKSPACE ([#132](https://github.com/Tiryoh/actions-mkdocs/issues/132))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.19.0...HEAD
 [v0.19.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.18.0...v0.19.0
 
 
