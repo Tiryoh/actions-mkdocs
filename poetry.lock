@@ -423,20 +423,21 @@ min-versions = ["babel (==2.9.0)", "click (==7.0)", "colorama (==0.4)", "ghp-imp
 
 [[package]]
 name = "mkdocs-git-revision-date-localized-plugin"
-version = "1.1.0"
+version = "1.2.0"
 description = "Mkdocs plugin that enables displaying the localized date of the last git modification of a markdown file."
 category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "mkdocs-git-revision-date-localized-plugin-1.1.0.tar.gz", hash = "sha256:38517e2084229da1a1b9460e846c2748d238c2d79efd405d1b9174a87bd81d79"},
-    {file = "mkdocs_git_revision_date_localized_plugin-1.1.0-py3-none-any.whl", hash = "sha256:4ba0e49abea3e9f6ee26e2623ff7283873da657471c61f1d0cfbb986f403316d"},
+    {file = "mkdocs-git-revision-date-localized-plugin-1.2.0.tar.gz", hash = "sha256:7752edd7c4dcaa9383e9a5b6a4f729831a62d604b0c43b319331127720c6a2bf"},
+    {file = "mkdocs_git_revision_date_localized_plugin-1.2.0-py3-none-any.whl", hash = "sha256:540b9c930d8d48630c090b72ac2c3900ac2ed0799b23738a33b88e31f5198fe7"},
 ]
 
 [package.dependencies]
 babel = ">=2.7.0"
 GitPython = "*"
 mkdocs = ">=1.0"
+pytz = "*"
 
 [[package]]
 name = "mkdocs-gitbook"
@@ -865,4 +866,4 @@ testing = ["func-timeout", "jaraco.itertools", "jaraco.test (>=3.2.0)", "pytest 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "26cca5a168c883b82b63f98cdd802335e1513a79e433768f6e277d7dec61d133"
+content-hash = "45e0b8d3a23528568d221c30e9dc55b19f3f1dc98121fa0fefa8c6c616d2a257"
