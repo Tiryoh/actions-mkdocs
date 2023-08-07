@@ -480,20 +480,20 @@ natsort = "*"
 
 [[package]]
 name = "mkdocs-material"
-version = "9.1.20"
+version = "9.1.21"
 description = "Documentation that simply works"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "mkdocs_material-9.1.20-py3-none-any.whl", hash = "sha256:152db66f667825d5aa3398386fe4d227640ec393c31e7cf109b114a569fc40fc"},
-    {file = "mkdocs_material-9.1.20.tar.gz", hash = "sha256:91621b6a6002138c72d50a0beef20ed12cf367d2af27d1f53382562b3a9625c7"},
+    {file = "mkdocs_material-9.1.21-py3-none-any.whl", hash = "sha256:58bb2f11ef240632e176d6f0f7d1cff06be1d11c696a5a1b553b808b4280ed47"},
+    {file = "mkdocs_material-9.1.21.tar.gz", hash = "sha256:71940cdfca84ab296b6362889c25395b1621273fb16c93deda257adb7ff44ec8"},
 ]
 
 [package.dependencies]
 colorama = ">=0.4"
 jinja2 = ">=3.0"
 markdown = ">=3.2"
-mkdocs = ">=1.4.2"
+mkdocs = ">=1.5.0"
 mkdocs-material-extensions = ">=1.1"
 pygments = ">=2.14"
 pymdown-extensions = ">=9.9.1"
@@ -951,4 +951,4 @@ testing = ["func-timeout", "jaraco.itertools", "jaraco.test (>=3.2.0)", "pytest 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "952e25f51f5f74c0991a8cc4e1e116305440ea1b800355d3eb65473122e64156"
+content-hash = "e8008cf13bd0c9b6260396aa82de74e5467921ab3154a00622c3ac8de0a3cc23"
