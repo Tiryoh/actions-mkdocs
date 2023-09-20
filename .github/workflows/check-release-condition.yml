@@ -8,7 +8,7 @@ jobs:
     if: startsWith(github.event.pull_request.title, 'release')
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Dump version
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
