@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mkdocs-actions"
-version = "0.21.0"
+version = "0.22.0"
 description = ""
 authors = ["Daisuke Sato <tiryoh@gmail.com>"]
 license = "MIT"

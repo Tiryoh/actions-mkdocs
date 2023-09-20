@@ -2,6 +2,50 @@
 ## [Unreleased]
 
 
+<a name="v0.22.0"></a>
+## [v0.22.0] - 2023-09-20
+### Chore
+- **deps:** Bump actions/checkout from 3 to 4 ([#176](https://github.com/Tiryoh/actions-mkdocs/issues/176))
+- **deps:** Bump mkdocs from 1.5.2 to 1.5.3 ([#178](https://github.com/Tiryoh/actions-mkdocs/issues/178))
+- **deps:** Bump mkdocs-material from 9.2.1 to 9.2.7 ([#177](https://github.com/Tiryoh/actions-mkdocs/issues/177))
+- **deps:** Bump mkdocs-material from 9.1.21 to 9.2.1 ([#174](https://github.com/Tiryoh/actions-mkdocs/issues/174))
+- **deps:** Bump mkdocs-material from 9.1.20 to 9.1.21 ([#171](https://github.com/Tiryoh/actions-mkdocs/issues/171))
+- **deps:** Bump mkdocs from 1.5.1 to 1.5.2 ([#170](https://github.com/Tiryoh/actions-mkdocs/issues/170))
+- **deps:** Bump mkdocs-minify-plugin from 0.7.0 to 0.7.1 ([#169](https://github.com/Tiryoh/actions-mkdocs/issues/169))
+- **deps:** Bump mkdocs from 1.4.3 to 1.5.1 ([#167](https://github.com/Tiryoh/actions-mkdocs/issues/167))
+- **deps:** Bump mkdocs-minify-plugin from 0.6.4 to 0.7.0 ([#168](https://github.com/Tiryoh/actions-mkdocs/issues/168))
+- **deps:** Bump mkdocs-material from 9.1.19 to 9.1.20 ([#166](https://github.com/Tiryoh/actions-mkdocs/issues/166))
+- **deps:** Bump mkdocs-redirects from 1.2.0 to 1.2.1 ([#165](https://github.com/Tiryoh/actions-mkdocs/issues/165))
+- **deps:** Bump mkdocs-material from 9.1.18 to 9.1.19 ([#164](https://github.com/Tiryoh/actions-mkdocs/issues/164))
+- **deps:** Bump mkdocs-material from 9.1.17 to 9.1.18 ([#163](https://github.com/Tiryoh/actions-mkdocs/issues/163))
+- **deps:** Bump mkdocs-material from 9.1.16 to 9.1.17 ([#162](https://github.com/Tiryoh/actions-mkdocs/issues/162))
+- **deps:** Bump mkdocs-material from 9.1.15 to 9.1.16 ([#161](https://github.com/Tiryoh/actions-mkdocs/issues/161))
+- **deps:** Bump mkdocs-material from 9.1.14 to 9.1.15 ([#160](https://github.com/Tiryoh/actions-mkdocs/issues/160))
+- **deps:** Bump mkdocs-material from 9.1.12 to 9.1.14 ([#159](https://github.com/Tiryoh/actions-mkdocs/issues/159))
+- **deps:** Bump mkdocs-material from 9.1.11 to 9.1.12 ([#158](https://github.com/Tiryoh/actions-mkdocs/issues/158))
+- **deps:** Bump mkdocs-material from 9.1.8 to 9.1.11 ([#157](https://github.com/Tiryoh/actions-mkdocs/issues/157))
+- **deps:** Bump mkdocs from 1.4.2 to 1.4.3 ([#156](https://github.com/Tiryoh/actions-mkdocs/issues/156))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 0.12.0 to 0.13.1 ([#155](https://github.com/Tiryoh/actions-mkdocs/issues/155))
+- **deps:** Bump mkdocs-material from 9.1.6 to 9.1.8 ([#154](https://github.com/Tiryoh/actions-mkdocs/issues/154))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 0.11.0 to 0.12.0 ([#153](https://github.com/Tiryoh/actions-mkdocs/issues/153))
+- **deps:** Bump mkdocs-material from 9.1.5 to 9.1.6 ([#152](https://github.com/Tiryoh/actions-mkdocs/issues/152))
+- **deps:** Bump mkdocs-material from 9.1.4 to 9.1.5 ([#151](https://github.com/Tiryoh/actions-mkdocs/issues/151))
+- **deps:** Bump mkdocs-material from 9.1.3 to 9.1.4 ([#150](https://github.com/Tiryoh/actions-mkdocs/issues/150))
+- **deps:** Bump mkdocs-material from 8.5.10 to 9.1.3 ([#148](https://github.com/Tiryoh/actions-mkdocs/issues/148))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 0.10.3 to 0.11.0 ([#149](https://github.com/Tiryoh/actions-mkdocs/issues/149))
+- **deps:** Bump mkdocs-minify-plugin from 0.6.2 to 0.6.4 ([#147](https://github.com/Tiryoh/actions-mkdocs/issues/147))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.1.0 to 1.2.0 ([#144](https://github.com/Tiryoh/actions-mkdocs/issues/144))
+- **deps:** Bump mkdocs-minify-plugin from 0.5.0 to 0.6.2 ([#142](https://github.com/Tiryoh/actions-mkdocs/issues/142))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 0.10.2 to 0.10.3 ([#140](https://github.com/Tiryoh/actions-mkdocs/issues/140))
+
+### Release
+- v0.21.0 ([#173](https://github.com/Tiryoh/actions-mkdocs/issues/173))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.22.0...HEAD
+[v0.22.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.20.0...v0.22.0
+
+
 <a name="v0.21.0"></a>
 ## [v0.21.0] - 2023-08-07
 ### Chore
@@ -35,7 +79,6 @@
 - **deps:** Bump mkdocs-htmlproofer-plugin from 0.10.2 to 0.10.3 ([#140](https://github.com/Tiryoh/actions-mkdocs/issues/140))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.21.0...HEAD
 [v0.21.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.20.0...v0.21.0
 
 
