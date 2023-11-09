@@ -2,6 +2,16 @@
 ## [Unreleased]
 
 
+<a name="v0.23.0"></a>
+## [v0.23.0] - 2023-11-09
+### Chore
+- Upgrade dependencies to avoid PyYAML install error ([#183](https://github.com/Tiryoh/actions-mkdocs/issues/183))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.23.0...HEAD
+[v0.23.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.22.0...v0.23.0
+
+
 <a name="v0.22.0"></a>
 ## [v0.22.0] - 2023-09-20
 ### Chore
@@ -42,7 +52,6 @@
 - v0.21.0 ([#173](https://github.com/Tiryoh/actions-mkdocs/issues/173))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.22.0...HEAD
 [v0.22.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.20.0...v0.22.0
 
 
