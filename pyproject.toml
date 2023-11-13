@@ -16,7 +16,7 @@ mkdocs-rtd-dropdown = "1.0.2"
 mkdocs-gitbook = "0.0.1"
 mkdocs-ivory = "0.4.6"
 # plugins
-mkdocs-minify-plugin = "^0.6"
+mkdocs-minify-plugin = "^0.7"
 mkdocs-redirects = "^1.2"
 mkdocs-git-revision-date-localized-plugin = "^1.2"
 mkdocs-htmlproofer-plugin = "^0.13.1"
