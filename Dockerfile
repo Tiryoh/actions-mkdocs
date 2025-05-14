@@ -8,7 +8,7 @@ WORKDIR /docs
 
 # Initialize project
 RUN poetry install \
-    --no-interaction --no-ansi
+    --no-interaction --no-ansi --no-root
 
 # Add script for GitHub Actions
 COPY ./entrypoint.sh /entrypoint.sh
