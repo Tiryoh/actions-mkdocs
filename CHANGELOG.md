@@ -2,13 +2,60 @@
 ## [Unreleased]
 
 
+<a name="v0.24.0"></a>
+## [v0.24.0] - 2025-05-14
+### Chore
+- **deps:** Upgrade Poetry files and install command to work with poetry 2.1.3 ([#224](https://github.com/Tiryoh/actions-mkdocs/issues/224))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.4.4 to 1.4.5 ([#223](https://github.com/Tiryoh/actions-mkdocs/issues/223))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.3.0 to 1.4.4 ([#222](https://github.com/Tiryoh/actions-mkdocs/issues/222))
+- **deps:** Bump mkdocs-redirects from 1.2.1 to 1.2.2 ([#221](https://github.com/Tiryoh/actions-mkdocs/issues/221))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.9 to 1.3.0 ([#220](https://github.com/Tiryoh/actions-mkdocs/issues/220))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.8 to 1.2.9 ([#219](https://github.com/Tiryoh/actions-mkdocs/issues/219))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 1.2.1 to 1.3.0 ([#218](https://github.com/Tiryoh/actions-mkdocs/issues/218))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.7 to 1.2.8 ([#217](https://github.com/Tiryoh/actions-mkdocs/issues/217))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.6 to 1.2.7 ([#216](https://github.com/Tiryoh/actions-mkdocs/issues/216))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.5 to 1.2.6 ([#215](https://github.com/Tiryoh/actions-mkdocs/issues/215))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.4 to 1.2.5 ([#214](https://github.com/Tiryoh/actions-mkdocs/issues/214))
+- **deps:** Bump mkdocs-material from 9.5.17 to 9.5.18 ([#213](https://github.com/Tiryoh/actions-mkdocs/issues/213))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 1.2.0 to 1.2.1 ([#212](https://github.com/Tiryoh/actions-mkdocs/issues/212))
+- **deps:** Bump mkdocs-material from 9.5.16 to 9.5.17 ([#211](https://github.com/Tiryoh/actions-mkdocs/issues/211))
+- **deps:** Bump mkdocs-material from 9.5.15 to 9.5.16 ([#210](https://github.com/Tiryoh/actions-mkdocs/issues/210))
+- **deps:** Bump mkdocs-material from 9.5.14 to 9.5.15 ([#209](https://github.com/Tiryoh/actions-mkdocs/issues/209))
+- **deps:** Bump mkdocs-material from 9.5.13 to 9.5.14 ([#208](https://github.com/Tiryoh/actions-mkdocs/issues/208))
+- **deps:** Bump mkdocs-material from 9.5.12 to 9.5.13 ([#207](https://github.com/Tiryoh/actions-mkdocs/issues/207))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 1.1.0 to 1.2.0 ([#206](https://github.com/Tiryoh/actions-mkdocs/issues/206))
+- **deps:** Bump mkdocs-material from 9.5.11 to 9.5.12 ([#205](https://github.com/Tiryoh/actions-mkdocs/issues/205))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 1.0.0 to 1.1.0 ([#204](https://github.com/Tiryoh/actions-mkdocs/issues/204))
+- **deps:** Bump mkdocs-material from 9.5.10 to 9.5.11 ([#203](https://github.com/Tiryoh/actions-mkdocs/issues/203))
+- **deps:** Bump mkdocs-material from 9.5.9 to 9.5.10 ([#202](https://github.com/Tiryoh/actions-mkdocs/issues/202))
+- **deps:** Bump mkdocs-material from 9.5.7 to 9.5.9 ([#201](https://github.com/Tiryoh/actions-mkdocs/issues/201))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.2 to 1.2.4 ([#200](https://github.com/Tiryoh/actions-mkdocs/issues/200))
+- **deps:** Bump mkdocs-material from 9.5.6 to 9.5.7 ([#199](https://github.com/Tiryoh/actions-mkdocs/issues/199))
+- **deps:** Bump mkdocs-minify-plugin from 0.7.2 to 0.8.0 ([#198](https://github.com/Tiryoh/actions-mkdocs/issues/198))
+- **deps:** Bump mkdocs-material from 9.5.4 to 9.5.6 ([#197](https://github.com/Tiryoh/actions-mkdocs/issues/197))
+- **deps:** Bump mkdocs-material from 9.5.3 to 9.5.4 ([#196](https://github.com/Tiryoh/actions-mkdocs/issues/196))
+- **deps:** Bump mkdocs-material from 9.5.2 to 9.5.3 ([#195](https://github.com/Tiryoh/actions-mkdocs/issues/195))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.2.1 to 1.2.2 ([#194](https://github.com/Tiryoh/actions-mkdocs/issues/194))
+- **deps:** Bump mkdocs-minify-plugin from 0.7.1 to 0.7.2 ([#193](https://github.com/Tiryoh/actions-mkdocs/issues/193))
+- **deps:** Bump mkdocs-material from 9.4.14 to 9.5.2 ([#192](https://github.com/Tiryoh/actions-mkdocs/issues/192))
+- **deps:** Bump mkdocs-material from 9.4.10 to 9.4.14 ([#191](https://github.com/Tiryoh/actions-mkdocs/issues/191))
+- **deps:** Bump mkdocs-material-extensions from 1.3 to 1.3.1 ([#190](https://github.com/Tiryoh/actions-mkdocs/issues/190))
+- **deps:** Bump mkdocs-material from 9.4.8 to 9.4.10 ([#189](https://github.com/Tiryoh/actions-mkdocs/issues/189))
+- **deps:** Bump mkdocs-htmlproofer-plugin from 0.13.1 to 1.0.0 ([#188](https://github.com/Tiryoh/actions-mkdocs/issues/188))
+- **deps:** Bump mkdocs-minify-plugin from 0.6.4 to 0.7.1 ([#187](https://github.com/Tiryoh/actions-mkdocs/issues/187))
+- **deps:** Bump mkdocs-material from 9.4.0 to 9.4.8 ([#186](https://github.com/Tiryoh/actions-mkdocs/issues/186))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.24.0...HEAD
+[v0.24.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.23.0...v0.24.0
+
+
 <a name="v0.23.0"></a>
 ## [v0.23.0] - 2023-11-09
 ### Chore
 - Upgrade dependencies to avoid PyYAML install error ([#183](https://github.com/Tiryoh/actions-mkdocs/issues/183))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.23.0...HEAD
 [v0.23.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.22.0...v0.23.0
 
 
