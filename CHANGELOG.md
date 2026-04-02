@@ -7,6 +7,12 @@
 ### Chore
 - **deps:** Bump mkdocs-htmlproofer-plugin from 1.3.0 to 1.4.1 ([#234](https://github.com/Tiryoh/actions-mkdocs/issues/234))
 
+### Security
+- Fix command injection in release workflow by [@choseogyeong](https://github.com/choseogyeong)
+
+### Fix
+- **ci:** Restrict release-candidate workflow to repository owner ([#238](https://github.com/Tiryoh/actions-mkdocs/issues/238))
+
 
 [Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.25.0...HEAD
 [v0.25.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.24.0...v0.25.0
