@@ -10,7 +10,9 @@ on:
 jobs:
   release-candidate:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'Release ')
+    if: >-
+      github.event.issue.user.login == github.repository_owner
+      && startsWith(github.event.issue.title, 'Release ')
 
     steps:
       - name: Install git-chglog
