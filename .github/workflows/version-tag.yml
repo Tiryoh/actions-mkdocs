@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v6
       - name: tag
         run: |
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git remote set-url origin "https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" 2>/dev/null
           git tag $(basename ${TAG%.*.*})
           git tag $(basename ${TAG%.*})
           git push origin -f --tags
