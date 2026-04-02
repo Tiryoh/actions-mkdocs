@@ -20,12 +20,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout mkdocs
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: squidfunk/mkdocs-material
 
       - name: Checkout action
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: .github/actions/mkdocs-builder
 
