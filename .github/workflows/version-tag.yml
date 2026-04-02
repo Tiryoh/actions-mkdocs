@@ -6,6 +6,7 @@ on:
 jobs:
   version-tag:
     runs-on: ubuntu-latest
+    if: github.actor == github.repository_owner
     steps:
       - name: checkout
         uses: actions/checkout@v6
