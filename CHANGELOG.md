@@ -2,6 +2,21 @@
 ## [Unreleased]
 
 
+<a name="v0.26.0"></a>
+## [v0.26.0] - 2026-04-03
+### Bug Fixes
+- **ci:** Harden workflows against shell injection and fix quoting issues ([#239](https://github.com/Tiryoh/actions-mkdocs/issues/239))
+
+### Chore
+- **deps:** Bump mkdocs from 1.5.3 to 1.6.1 and mkdocs-material from 9.5.18 to 9.5.19 ([#240](https://github.com/Tiryoh/actions-mkdocs/issues/240))
+- **deps:** Bump mkdocs-git-revision-date-localized-plugin from 1.4.5 to 1.4.7 ([#229](https://github.com/Tiryoh/actions-mkdocs/issues/229))
+- **deps:** Bump actions/checkout from 4 to 6 ([#233](https://github.com/Tiryoh/actions-mkdocs/issues/233))
+
+
+[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.26.0...HEAD
+[v0.26.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.25.0...v0.26.0
+
+
 <a name="v0.25.0"></a>
 ## [v0.25.0] - 2026-04-02
 ### Chore
@@ -14,7 +29,6 @@
 - **ci:** Restrict release-candidate workflow to repository owner ([#238](https://github.com/Tiryoh/actions-mkdocs/issues/238))
 
 
-[Unreleased]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.25.0...HEAD
 [v0.25.0]: https://github.com/Tiryoh/actions-mkdocs/compare/v0.24.0...v0.25.0
 
 
