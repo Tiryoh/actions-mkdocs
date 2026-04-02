@@ -6,12 +6,13 @@ on:
 jobs:
   version-tag:
     runs-on: ubuntu-latest
+    if: github.actor == github.repository_owner
     steps:
       - name: checkout
         uses: actions/checkout@v6
       - name: tag
         run: |
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+          git remote set-url origin "https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" 2>/dev/null
           git tag $(basename ${TAG%.*.*})
           git tag $(basename ${TAG%.*})
           git push origin -f --tags
