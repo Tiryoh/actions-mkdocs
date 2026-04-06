@@ -3,7 +3,7 @@
 
 
 <a name="v0.26.0"></a>
-## [v0.26.0] - 2026-04-03
+## [v0.26.0] - 2026-04-07
 ### Bug Fixes
 - **ci:** Harden workflows against shell injection and fix quoting issues ([#239](https://github.com/Tiryoh/actions-mkdocs/issues/239))
 
