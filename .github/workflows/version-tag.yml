@@ -9,7 +9,7 @@ jobs:
     if: github.actor == github.repository_owner
     steps:
       - name: checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: tag
         run: |
           git remote set-url origin "https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" 2>/dev/null
